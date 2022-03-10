@@ -138,5 +138,6 @@ section {
   }
   footer
   {
-      margin-bottom: 100px;
+    margin: auto;
+    padding: 19px;
   }
