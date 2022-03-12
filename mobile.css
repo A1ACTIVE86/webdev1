@@ -51,3 +51,12 @@
 #clicked:target nav{
     display: block;
 }
+footer
+  {
+    margin: auto;
+    padding: 19px;
+  }
+  footer a
+  {
+      color: bisque;
+  }
