@@ -10,9 +10,11 @@
 .shownav:before{
       content: '';
       position: absolute;
-      width: 1.25em;
+      width: 2.25em;
       margin-top: 0.3em;
       border-top: 0.2em solid rgb(202, 33, 33);
+      margin-left: -1.1em;
+      
     }
     nav {
         display: none;
