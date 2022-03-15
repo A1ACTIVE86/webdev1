@@ -135,6 +135,7 @@ section {
 
 section {
     display: flex;
+    right: -126px;
 }
 
 section p {
@@ -147,6 +148,12 @@ footer {
     margin: auto;
     padding: 19px;
     grid-area: footer;
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 90%;
+    left: 45.6vw;
+
 
 
 
@@ -198,6 +205,11 @@ footer a {
     opacity: 1;
 }
 
+.container .text:hover
+{
+    opacity: 0.5;
+}
+
 .text {
     background-color: none;
     color: white;
@@ -215,3 +227,11 @@ footer a {
                         "container container";
 }
 
+form {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    margin-top: 61px;
+    }
