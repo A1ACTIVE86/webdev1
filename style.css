@@ -97,14 +97,6 @@ header h1 {
     font-size: 4em
 }
 
-footer {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    font-display: bold;
-    font-weight: 100;
-
-}
 
 header a {
     display: none;
@@ -157,7 +149,7 @@ footer {
 
 footer a {
     color: bisque;
-
+    font-size: large;
 }
 
 .container {
@@ -226,12 +218,13 @@ footer a {
 form {
     display: grid;
     grid-area: form;
-    width: 46em;
+    width: 48em;
     grid-template-columns: 50% 50%;
     align-items: center;
     grid-gap: -0.5em;
     margin-top: -6px;
     background: bisque;
+    margin-left: 11%;
     }
     input[type=text], select, textarea {
         width: 90%;
