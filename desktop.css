@@ -138,7 +138,6 @@ footer {
     grid-area: footer;
     display: block;
     text-align: center;
-    position: fixed;
     top: 90%;
     left: 45.6vw;
 
