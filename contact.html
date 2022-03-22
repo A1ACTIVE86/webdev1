@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Khalid portfolio</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="shortcut icon" type="image" href="image/Khalid.jpg">
+	<link rel="shortcut icon" href="image/Khalid.jpg" type="image/x-icon">
 	<link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1000px)" />
 	<link rel="stylesheet" href="mobile.css" media="screen and (min-width: 400px) and (max-width: 800px)" />
     
@@ -22,6 +22,7 @@
 			  <ul>
 				 <li><a href="contact.html">contact</a></li>
 				 <li><a href="sitereport.html">site report</a></li>
+				 <li><a href="Blog.html">Blog page</a></li>
 			  </ul>
 		   </li>
 		</ul>
@@ -29,9 +30,10 @@
 	   <header><h1>Khalid portfolio</h1></header>
 
 		
-	   <form action="mailto:osemikhalid193@gmail.com?subject=Contact form" target="blank" method="get">
+	   <form action="mailto:osemikhalid193@gmail.com" target="blank" method="get">
 		<label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		<input type="hidden" name="subject" value="Conatct-Form" id="contact">
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -44,7 +46,7 @@
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="body" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
