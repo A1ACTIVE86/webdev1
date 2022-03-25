@@ -53,20 +53,11 @@
 #clicked:target nav{
     display: block;
 }
-footer
-  {
-    margin: auto;
-    padding: 19px;
-  }
-  footer a
-  {
-      color: bisque;
-  }
 
-  
-.container {
+
+  .container {
     position: relative;
-    width: 50%;
+    width: 100%;
     grid-area: container;
 
 }
@@ -78,11 +69,8 @@ footer
     width: 200%;
     height: auto;
     transition: .5s ease;
-    backface-visibility: hidden;
-    margin-top: 1em;
-    margin-left: 7em;
     border-radius: 35px;
-    
+    display: flex;
 
 }
 
@@ -111,12 +99,11 @@ footer
 }
 
 .text {
-    background-color: none;
+  
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
-    margin-left: 14em;
-    margin-top: 5em;
+   
+    
 }
 
 .Work {
