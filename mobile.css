@@ -29,6 +29,7 @@
            float: left;
        }
 
+
          
    #clicked .on 
    {
@@ -71,6 +72,7 @@
     transition: .5s ease;
     border-radius: 35px;
     display: flex;
+    grid-area: image;
 
 }
 
@@ -111,5 +113,5 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     grid-template-areas: "container container "
-                        "container container";
+                        "image image";
 }
