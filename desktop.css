@@ -269,71 +269,15 @@ input[type=submit]:hover {
 
 
 
-.img3
- {
-    float: left;
-}
-
-.ppe {
-    width: 22em;
-    float: right;
-    margin-right: 20em;
-}
-
-
-
-.card {
-    display: grid;
-    grid-template-columns: 25% 33% 33%;
-    grid-template-rows: auto;
-     grid-template-areas: "card left card "
-                        ""; 
-                        justify-content: center;
-                        margin-left: 151px;
-  }
-   
     
-    .left{   
-      float: left;
-      width: 75%;
-      grid-area: left;
-      display: block;
+    
+    
+    
+    
+    
+   
+ 
   
-    }
-    
-    
-    
-    
-    
-    .img {
-      width: 60%;
-      padding: 20px;
-      height: 200px;
-      margin-bottom: 15px;
-    }
-    
    
-    .card {
-       background-color: white;
-       padding: 19px;
-       margin-top: 20px;
-       width: 295%;
-       grid-area: card;
-       height: fit-content;
-    }
-    
-  
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-   
-    .siterep
-    {
-        border: none;
-    }
-
 
     
