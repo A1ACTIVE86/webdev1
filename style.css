@@ -6,6 +6,7 @@
 body {
     background-image: url(image/k1.gif);
     display: grid;
+    background-size: cover;
     grid-template-columns: 30% 50% 20%;
     grid-template-rows: auto;
     grid-template-areas:
