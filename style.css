@@ -4,7 +4,7 @@
 }
 
 body {
-    background-size: cover;
+   background-size: cover;
     background-image: url(image/k1.gif);
     display: grid;
     grid-template-columns: 30% 50% 20%;
