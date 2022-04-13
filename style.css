@@ -40,7 +40,6 @@ main {
     border-style: solid;
     border-width: 4px;
 
-
 }
 
 
@@ -60,7 +59,6 @@ nav ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-area: "nav nav nav";
     text-align: center;
 }
 
@@ -109,14 +107,7 @@ nav {
     color: bisque;
 }
 
-section {
-    height: 14em;
-    padding: 10px;
-   
-    
 
-
-}
 
 
 
@@ -142,6 +133,20 @@ footer a {
     font-size: large;
 }
 
+
+
+
+
+.portmain
+{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+grid-template-rows: auto;
+grid-template-areas: "container work2 work2";
+display: flex;
+justify-content: center;
+}
+
 .container {
     position: relative;
     width: 50% ;
@@ -150,15 +155,29 @@ footer a {
 }
 .Work
 {
-    grid-area: container2;
+    grid-area: work;
     
 }
 
 .Work2
 {
-    grid-area: container;
+    grid-area: work2;
   
 }
+
+
+.img2
+{
+    opacity: 1;
+    display: block;
+    width: 19em;
+    height: auto;
+    transition: .5s ease;
+    border-radius: 35px;
+     margin-left: 35em;
+ 
+}
+
 
 
 .image {
@@ -171,9 +190,6 @@ footer a {
     margin-left: 12em;
 
 }
-
-
-
 
 
 .middle {
@@ -208,25 +224,8 @@ footer a {
 
 
 }
-.portmain
-{
-display: grid;
-grid-template-columns: 33% 33% 33%;
-grid-template-rows: auto;
-grid-template-areas: "container container2 container2";
-}
 
-.img2
-{
-    opacity: 1;
-    display: block;
-    width: 19em;
-    height: auto;
-    transition: .5s ease;
-    border-radius: 35px;
- margin-left: 30em;
- 
-}
+
 
 form {
     display: grid;
@@ -266,19 +265,6 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
-
-
-.img3
- {
-    float: left;
-}
-
-.ppe {
-    width: 22em;
-    float: right;
-    margin-right: 20em;
-}
 
 
 
@@ -328,12 +314,50 @@ input[type=submit]:hover {
       display: table;
       clear: both;
     }
+
+    .site
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+         grid-template-areas:"img3 ppe ppe"
+                                
+                            
+                            ; 
+                            display: flex;
+                            justify-content: flex-start;
+                            
+
+    }
+
+   
+    .ppe {
+        width: 22em;
+        float: right;
+        margin-right: 20em;
+        grid-area: ppe;
+    }
     
    
-    .siterep
+  .siterep
     {
         border: none;
     }
+
+.img3
+ {
+    float: left;
+    grid-area: img3;
+    
+}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+        
 
 
     

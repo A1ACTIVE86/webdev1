@@ -1,6 +1,6 @@
 header h1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 2em;
 }
 
@@ -29,9 +29,25 @@ header h1 {
         top: 0;
         left: 50%;
         width: 50%;
-        height: 9%;
+        height: 4em;
        }
+       nav ul ul {
+        position: absolute;
+        display: none;
+        background-color: rgb(200, 142, 71);
+        padding: 0;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+        transform: translate(0, 0);
+        pointer-events: none;
+    }
+    
+
+
+
        main{
+
            float: left;
        }
 
@@ -77,19 +93,21 @@ header h1 {
     height: auto;
     transition: .5s ease;
     border-radius: 35px;
-    width: 19em;
-    margin-left: 4em;
+    width: 15em;
+    margin-left: 1em;
+    margin-top: 6em;
 
 }
 .img2
 {
     opacity: 1;
     display: block;
-    width: 19em;
+    width: 15em;
     height: auto;
     transition: .5s ease;
     border-radius: 35px;
- margin-left: 18em;
+    margin-left: 29em;
+    margin-top: 6em;
  
 }
 
@@ -146,7 +164,9 @@ body
     padding: 20px;
     height: 10em;
     margin-bottom: 15px;
-    margin-left: 7em;
+    display: flex;
+    justify-content: center;
+    margin-left: 4em;
   }
   
  
@@ -182,9 +202,20 @@ footer a {
     font-size: large;
 }
 
-.ppe {
-    width: 22em;
-    float: right;
-    margin-right: 20em;
-    margin-bottom: 1em;
+
+.site{
+    margin-top: 2em;
+}
+
+
+.ppe{
+    float: none;
+        width: 18em;
+        margin-right: 3em;
+    }
+
+    .img3
+ {
+    width: 12em;
+    
 }
