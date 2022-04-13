@@ -40,7 +40,7 @@ nav a {
     margin: 10px 0px 20px 0px;
     padding: 20px;
     font-size: 17px;
-    font-style: bold;
+    font-weight: bold;
 }
 
 
@@ -48,7 +48,7 @@ nav ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-area: "nav nav nav";
+    grid-template-areas: "nav nav nav";
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ nav ul ul {
     width: 100%;
     opacity: 0;
     transition: opacity 0.3s ease-in;
-    transform: translate(1, -3);
+    transform: translate(0, 0);
     pointer-events: none;
 }
 
@@ -104,16 +104,16 @@ section {
     padding: 10px;
     margin: 5px;
     text-align: center;
-    grid-column-gap: -21px;
     align-self: center;
-    left: 128px;
+    left: 12em;
+    top: 8em;
     
 
 }
 
 section {
     display: flex;
-    right: -126px;
+    
 }
 
 section p {

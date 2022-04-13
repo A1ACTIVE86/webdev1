@@ -96,6 +96,7 @@ header h1 {
     width: 15em;
     margin-left: 1em;
     margin-top: 6em;
+    margin-right: 7em
 
 }
 .img2
@@ -106,7 +107,7 @@ header h1 {
     height: auto;
     transition: .5s ease;
     border-radius: 35px;
-    margin-left: 29em;
+    margin-left: 33em;
     margin-top: 6em;
  
 }
